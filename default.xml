@@ -1,11 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote name="buic-scm" fetch="ssh://buic-scm/" review="ssh://buic-scm/" />
-  <default remote="buic-scm" sync-j="4" revision="testing-dev" />
-
-  <project name="sandbox/test_prod/groceries" path="groceries" />
-  <project name="sandbox/test_prod/budget" path="budget" />
-  <project name="sandbox/test_prod/calculator" path="calculator" />
-
+  <remote fetch="ssh://buic-scm/" name="buic-scm" review="ssh://buic-scm/"/>
+  
+  <default remote="buic-scm" revision="testing-dev" sync-j="4"/>
+  
+  <project name="sandbox/test_prod/budget" path="budget" revision="2763f0d3aef9b8d3d7df747b3e5defc9a0c9da57" upstream="testing-dev"/>
+  <project name="sandbox/test_prod/calculator" path="calculator" revision="bc77ef01801874e540c67572448160b12976c507" upstream="testing-dev"/>
+  <project name="sandbox/test_prod/groceries" path="groceries" revision="96e6834d98164ab419d4681262b4492c83af1d39" upstream="testing-dev"/>
 </manifest>
-
