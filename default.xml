@@ -6,5 +6,5 @@
   
   <project name="sandbox/test_prod/budget" path="budget" revision="2763f0d3aef9b8d3d7df747b3e5defc9a0c9da57" upstream="testing-dev"/>
   <project name="sandbox/test_prod/calculator" path="calculator" revision="bc77ef01801874e540c67572448160b12976c507" upstream="testing-dev"/>
-  <project name="sandbox/test_prod/groceries" path="groceries" revision="3b10d7b4d865e683867a4b0ad7e9309523d7fdec" upstream="testing-dev"/>
+  <project name="sandbox/test_prod/groceries" path="groceries" revision="698ebc2f31f57ff897985733e3b27fc38350cfba" upstream="testing-dev"/>
 </manifest>
