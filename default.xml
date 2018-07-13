@@ -1,11 +1,11 @@
 <manifest>
 
-  <remote name="buic-scm" fetch="ssh://buic-scm/" review="ssh://buic-scm/" />
-  <default remote="buic-scm" sync-j="4" revision="testing-dev" />
+  <remote name="buic-github" fetch="https://github.com/" review="https://github.com" />
+  <default remote="buic-github" sync-j="4" revision="testing-dev" />
 
-  <project name="sandbox/test_prod/groceries" path="groceries" />
-  <project name="sandbox/test_prod/budget" path="budget" />
-  <project name="sandbox/test_prod/calculator" path="calculator" />
+  <project name="derekln1/test_prod-groceries" path="groceries" />
+  <project name="derekln1/test_prod-budget" path="budget" />
+  <project name="derekln1/test_prod-calculator" path="calculator" />
 
 </manifest>
 
